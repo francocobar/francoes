@@ -1,0 +1,116 @@
+#aContact, #aContact:visited {
+	font-weight: bold;
+    color: #53b7f9;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 130%;
+}
+
+#aContact:hover {
+    text-decoration: none;	
+}
+
+.available {
+	color: green;
+    font-style: italic;
+}
+
+.item {
+    border: 2px black solid;
+    -webkit-border-radius: 20px 0px 20px 0px;
+    -moz-border-radius: 20px 0px 20px 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.bg_303500 {
+    background: #303500;
+}
+
+.head-name {
+	color: #fafafa;
+}
+
+.color_yellow .item-title [class^="icon-"] {
+    background-color: #e9ff00;
+}
+.color_yellow .profile-data h4 {
+	background-color: #f9febf;
+	color: #000;
+}
+.item-title .title {
+    background: #f9febf;
+}
+
+.box-social li .tmb {
+    width: 104px;
+    height: 104px;
+    background-size: 100% auto;
+    background-position: 0 top;
+    background-repeat: repeat-y;
+    display: block;
+    margin: 0 0 10px 0;
+    transition-property: background-position;
+    transition-duration: 0.2s;
+    -webkit-transition-property: background-position;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-property: background-position;
+    -moz-transition-duration: 0.2s;
+}
+
+.box-social {
+	text-align: center;
+	position: relative;
+    /* padding: 50px 0 30px; */
+    z-index: 3;
+    background: #e9ff00;
+}
+.box-social .tw {
+    background-image: url(/images/box-social/twitter.png);
+}
+
+.box-social .fb {
+    background-image: url(/images/box-social/facebook.png);
+}
+
+.box-social .is {
+    background-image: url(/images/box-social/instagram.png);
+}
+
+.box-social li .tmb:hover {
+    background-position: 0 bottom;
+}
+
+.box-social li {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 25px;
+    margin: 0 10px;
+}
+
+#contact .width35 {
+	width: 35%;
+}
+#contact .width65 {
+	width: 65%;
+}
+
+@media (max-width: 982px) {
+	#contact .width35, #contact .width65 {
+	    width: 100%;
+	    float: none;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.box-social li .tmb {
+	    width: 80px;
+	    height: 80px;
+	}
+}
+
+@media (max-width: 480px) {
+	.box-social li .tmb {
+	    width: 63px;
+	    height: 63px;
+	}
+}
