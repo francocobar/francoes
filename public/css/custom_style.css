@@ -24,12 +24,13 @@
 
 .bg_303500 {
     background: #303500;
+    background-image: url("/images/bg/bg13.jpg");
 }
 
-.head-name {
+/*.head-name {
 	color: #fafafa;
 }
-
+*/
 .color_yellow .item-title [class^="icon-"] {
     background-color: #e9ff00;
 }
@@ -64,6 +65,32 @@
     z-index: 3;
     background: #e9ff00;
 }
+
+#up span {
+    bottom: -30px;
+    left: 50%;
+    font-size: 24px;
+    margin-left: -25px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: opacity .2s ease .1s;
+    -webKit-transition: opacity .2s ease .1s;
+}
+
+#up {
+    background: url("/images/up2.png") no-repeat;
+}
+#up:hover {
+    background-color: #e9ff00;
+}
+#up:hover span {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
 .box-social .tw {
     background-image: url(/images/box-social/twitter.png);
 }

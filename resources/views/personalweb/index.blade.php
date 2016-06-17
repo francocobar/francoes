@@ -62,7 +62,9 @@
 
                 @include('personalweb/section-contactinfo')
 
-                <a id="up"></a>
+                <a id="up">
+                    <span>TOP</span>
+                </a>
             </div>
         </div>
 
