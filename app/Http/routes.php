@@ -12,9 +12,5 @@
 */
 
 Route::get('/', function () {
-    return redirect('/bar');
-});
-
-Route::get('/bar', function () {
     return view('personalweb.index');
 });
