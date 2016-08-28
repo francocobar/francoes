@@ -36,7 +36,7 @@
                                     <h3>Web Developer</h3>
                                     <p>Iam Web Deloveper based in Jakarta, Indonesia.</p>
                                     <p>I can serve you to build your website using ASP.NET C#, PHP Laravel or WordPress CMS.</p>
-                                    <p>Need a personal website, company profile, online shop or another web apps? 
+                                    <p>Need a personal website, company profile, online shop or another web apps?
                                         <a href="#contact" style="font-weigh: bold;" id="aContact">Contact me! :)</a></p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                     <li><h4>name</h4> <div>Franco Escobar</div></li>
                                     <li><h4>Age</h4> <div>21</div></li>
                                     <li><h4>Location</h4> <div>Jakarta, Indonesia</div></li>
-                                    <li><h4>E-mail</h4> <div>escobar@franco.web.id</div></li>
+                                    <li><h4>E-mail</h4> <div>id@francoesco.bar</div></li>
                                     <li><h4>phone</h4> <div>+62 877 818589 46</div></li>
                                     <li><h4>freelance</h4> <div>Available</div></li>
                                 </ul>
@@ -58,7 +58,7 @@
                         </a>
                     </div>
                     <div id="profile-brd" class="item-border"><span><span></span></span></div>
-                </section><!-- /#profile -->              
+                </section><!-- /#profile -->
 
                 @include('personalweb/section-contactinfo')
 

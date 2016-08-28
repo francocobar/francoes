@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('personalweb.index');
 });
+
+Route::get('/admin', function () {
+    return view('dashboard.login');
+});

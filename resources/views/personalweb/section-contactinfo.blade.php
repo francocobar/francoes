@@ -10,13 +10,13 @@
                                         <span class="text">Jakarta, Indonesia</span>
                                     </li>
                                     <li class="icon-maile clearfix"><span class="icon"></span>
-                                        <span class="text">escobar@franco.web.id</span>
+                                        <span class="text">id@francoesco.bar</span>
                                     </li>
                                     <li class="icon-phone clearfix"><span class="icon"></span>
                                         <span class="text">+62 877 818589 46 <span class="available">(Whatsapp available)</span></span>
                                     </li>
                                     <li class="icon-world clearfix"><span class="icon"></span>
-                                        <span class="text">http://www.frc.my.id/ <span class="available">(blog)</span></span>
+                                        <span class="text">http:/blog.francoesco.bar/ <span class="available">(blog)</span></span>
                                     </li>
                                 </ul>
                             </div>
